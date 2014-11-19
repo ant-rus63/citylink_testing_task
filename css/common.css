@@ -1,0 +1,85 @@
+body {
+	background-color: #A9D1F7;
+	padding:0;
+	margin:0;
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+}
+
+.container {
+	margin: 0px 15% 0px 15%;
+	border-left: 1px #eee solid;
+	border-right: 1px #eee solid;
+	background-color: #ffffff;
+	position: fixed;
+	height: 100%;
+	width: 70%;
+}
+
+.my_form table {
+	border: 1px #ccc solid;
+	width: 60%;
+	margin: 30% 20% 30% 20%;
+}
+
+.my_form table tr td {
+	width: 40%;
+	margin: 5%;
+	text-align: center;
+}
+
+.my_form table  thead tr td{
+	background-color: #ddd;
+	height: 30px;
+	font-size: 16px;
+}
+
+.my_form table tr td .auth_form_txt {
+	font-size: 12px;
+	width: 100%;
+}
+
+.my_form table tr td .my_input{
+	width: 80%;
+}
+
+
+.cabinet_container{
+    margin:40px;
+}
+
+.cabinet_container table td{
+    padding: 10px;
+}
+
+
+#city_advice{
+    display:none;
+    width: 250px;
+    background-color: #eee;
+    color: #333;
+    -moz-opacity: 0.95;
+    opacity: 0.95;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=95);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=95);
+    filter:alpha(opacity=95);
+    z-index:999;
+    position: absolute;
+    top: 62%; left: 53%;
+}
+
+#city_advice .advice_variant{
+    width:95%;
+    cursor: pointer;
+    padding: 5px;
+    text-align: left;
+}
+#city_advice .advice_variant:hover{
+    color: #ddd;
+    background-color:#818181;
+}
+
+
+.auth_form_error{
+    color: #ff0000;
+}
